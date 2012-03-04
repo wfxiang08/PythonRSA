@@ -1,0 +1,11 @@
+1. bat文件中的换行应该采用Windows的格式, \r\n，在Mac下编辑之后需要在Windows调整一下
+2. RSA私钥和公钥：(前缀如下)
+   -----BEGIN RSA PRIVATE KEY-----
+   
+  2.1  openssl genrsa -out rsa_private_key.pem 1024
+  2.2  openssl rsa -in rsa_private_key.pem -pubout -out rsa_public_key.pem
+  
+3. 将RSA私钥转换成为PKCS8格式的私钥: (前缀如下)
+   -----BEGIN PRIVATE KEY-----
+   
+   3.1 openssl pkcs8 -topk8 -inform PEM -in rsa_private_key.pem -outform PEM -nocrypt

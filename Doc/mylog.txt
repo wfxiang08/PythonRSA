@@ -1,0 +1,92 @@
+Microsoft Windows [Version 6.1.7600]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\wfxiang08>D:
+
+D:\>cd D:\WS_SECURE_PAY(20120104)\openssl-0.9.8k_WIN32(RSA密钥生成工具)\bin\
+
+D:\WS_SECURE_PAY(20120104)\openssl-0.9.8k_WIN32(RSA密钥生成工具)\bin>rsa_generate_script.bat
+
+D:\WS_SECURE_PAY(20120104)\openssl-0.9.8k_WIN32(RSA密钥生成工具)\bin>openssl genrsa -out rsa_private_key.pem 1024
+Loading 'screen' into random state - done
+Generating RSA private key, 1024 bit long modulus
+...............................................++++++
+.................................................++++++
+e is 65537 (0x10001)
+
+D:\WS_SECURE_PAY(20120104)\openssl-0.9.8k_WIN32(RSA密钥生成工具)\bin>penssl rsa -in rsa_private_key.pem -pubout -out rsa
+_public_key.pem
+'penssl' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\WS_SECURE_PAY(20120104)\openssl-0.9.8k_WIN32(RSA密钥生成工具)\bin>penssl pkcs8 -topk8 -inform PEM -in rsa_private_key
+.pem -outform PEM -nocrypt銆� 1>mylog.txt 2>&1
+
+D:\WS_SECURE_PAY(20120104)\openssl-0.9.8k_WIN32(RSA密钥生成工具)\bin>rsa_generate_script.bat
+'penssl' is not recognized as an internal or external command,
+operable program or batch file.
+'penssl' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\WS_SECURE_PAY(20120104)\openssl-0.9.8k_WIN32(RSA密钥生成工具)\bin>rsa_generate_script.bat
+'penssl' is not recognized as an internal or external command,
+operable program or batch file.
+& was unexpected at this time.
+
+D:\WS_SECURE_PAY(20120104)\openssl-0.9.8k_WIN32(RSA密钥生成工具)\bin>rsa_generate_script.bat
+
+D:\WS_SECURE_PAY(20120104)\openssl-0.9.8k_WIN32(RSA密钥生成工具)\bin>锘緻echo off
+'锘緻echo' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\WS_SECURE_PAY(20120104)\openssl-0.9.8k_WIN32(RSA密钥生成工具)\bin>openssl genrsa -out rsa_private_key.pem 1024
+Loading 'screen' into random state - done
+Generating RSA private key, 1024 bit long modulus
+........++++++
+...............++++++
+e is 65537 (0x10001)
+
+D:\WS_SECURE_PAY(20120104)\openssl-0.9.8k_WIN32(RSA密钥生成工具)\bin>openssl rsa -in rsa_private_key.pem -pubout -out rs
+a_public_key.pem
+writing RSA key
+
+D:\WS_SECURE_PAY(20120104)\openssl-0.9.8k_WIN32(RSA密钥生成工具)\bin>openssl pkcs8 -topk8 -inform PEM -in rsa_private_ke
+y.pem -outform PEM -nocrypt銆� 1>mylog.txt 2>&1
+
+D:\WS_SECURE_PAY(20120104)\openssl-0.9.8k_WIN32(RSA密钥生成工具)\bin>rsa_generate_script.bat
+
+D:\WS_SECURE_PAY(20120104)\openssl-0.9.8k_WIN32(RSA密钥生成工具)\bin>锘緻echo off
+'锘緻echo' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\WS_SECURE_PAY(20120104)\openssl-0.9.8k_WIN32(RSA密钥生成工具)\bin>openssl genrsa -out rsa_private_key.pem 1024
+Loading 'screen' into random state - done
+Generating RSA private key, 1024 bit long modulus
+.++++++
+......................++++++
+e is 65537 (0x10001)
+
+D:\WS_SECURE_PAY(20120104)\openssl-0.9.8k_WIN32(RSA密钥生成工具)\bin>openssl rsa -in rsa_private_key.pem -pubout -out rs
+a_public_key.pem
+writing RSA key
+
+D:\WS_SECURE_PAY(20120104)\openssl-0.9.8k_WIN32(RSA密钥生成工具)\bin>openssl pkcs8 -topk8 -inform PEM -in rsa_private_ke
+y.pem -outform PEM -nocrypt
+-----BEGIN PRIVATE KEY-----
+MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAMfnENwipixw91mh
+zRhnmQ0yqYF5M8u8tEC/To8ThLnExbHa8JeaCv4btRF01uJgyHg7raZHAF6UcHCM
+c1qBgOEYNf5+bFj+aNgYeNrLX8uAFIEdAETiFpnYjtEIhO61fLPpwndfsEkFRKO4
+2I8fBM/hXk58Tur/jXGPHL1OR/ulAgMBAAECgYEAkItH6aU0OxZEBI+2WVsvlBd5
+8aDODxeXzumFyHb4lcrumDgTl8tO/4bRWpn9dxs8WZPtcDoOzlTPKNKl5l+V6+SQ
+Qw5XEX8zoDAnXBnLnAdw79NroP8jc7o31aqskNYdPNLWV6kxUGzcaiW0w9qQ+knF
+JrnJWC0Jg8yHX5xqToECQQD4yaK/laO0p83mM6kZuPscHp4gPI5Qg/LGyJRIym5q
+ur7ckAMxJGLhFeDznJKbL5DmCg6sVXkfkc1xOWazysHpAkEAzbKh5TRcnV/Npkpm
+hXaNNrTTjoTk3IgSBjHDd29TnK/raeHGRr49Jf5Go0VmQCvT+0RtzUBVNW/Ty+MO
+fvL6XQJAcM5csSoUtJFx1vONtVAe7D0lzdAnZ3Ks3l2MfwTq1BIhALl7+QhanVzi
+RxOzlhIXTXc5+AI5jYr68F/qpZNGIQJBAMcTQjI06gl5RevRh8VVRjgS68i7/08b
+9e2+zcFSoiY77+eKlb2zsjSKEk1EBkDG6iL9SBNkVtMfxmhF+KqOeBUCQQDTvD1W
+AYJ7RnQbYl5fRLpA0gL54/RZxS/NtunK7Aq2lk5kZzjsPmd6jXFPzkaI1W0z7JjA
+0YACurXc+jOMjt29
+-----END PRIVATE KEY-----
+
+D:\WS_SECURE_PAY(20120104)\openssl-0.9.8k_WIN32(RSA密钥生成工具)\bin>
